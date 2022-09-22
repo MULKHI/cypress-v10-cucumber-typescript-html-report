@@ -1,0 +1,6 @@
+{
+    "json": {
+      "enabled": true,
+      "formatter": "./cucumber-json-formatter"
+    }
+  }
