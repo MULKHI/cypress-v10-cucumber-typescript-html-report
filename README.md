@@ -48,7 +48,7 @@ Run the Cypress Test in headless mode
 ```
 npx run cypress run --e2e
 ```
-## Test Reports
+## 📄Test Reports
 This project provides two different types of reporting features.
 - Command line output
 - HTML Reporting using Cucumber
