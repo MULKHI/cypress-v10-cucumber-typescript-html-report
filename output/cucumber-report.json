@@ -1,0 +1,206 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-to-application;login-with-valid-data",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "login with valid data",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 4,
+            "name": "A user open loginpage1",
+            "result": {
+              "duration": 5906000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 5,
+            "name": "A user submit login with valid data",
+            "result": {
+              "duration": 7599000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 6,
+            "name": "A user should see account summary page",
+            "result": {
+              "duration": 177000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-to-application;login-with-invalid-data",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "login with invalid data",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 9,
+            "name": "A user open loginpage2",
+            "result": {
+              "duration": 841000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 10,
+            "name": "A user submit login with invalid data",
+            "result": {
+              "duration": 1956000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 11,
+            "name": "A user should failed login",
+            "result": {
+              "duration": 65000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-to-application",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Login to Application",
+    "uri": "cypress\\e2e\\login.feature"
+  },
+  {
+    "description": "    User want to Search data in homepage",
+    "elements": [
+      {
+        "description": "",
+        "id": "search-data-in-application;search-suitable-data",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Search suitable data",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 5,
+            "name": "A user open homepage1",
+            "result": {
+              "duration": 3943000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 6,
+            "name": "A user enter data in fill Search",
+            "result": {
+              "duration": 3124000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 7,
+            "name": "A user will get feedback from the result",
+            "result": {
+              "duration": 249000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "search-data-in-application;search-data-that-does-not-match",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Search data that does not match",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 11,
+            "name": "A user open homepage2",
+            "result": {
+              "duration": 505000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 12,
+            "name": "A user enter data in fill Search with random",
+            "result": {
+              "duration": 779000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 13,
+            "name": "A user will get feedback from the result do not match",
+            "result": {
+              "duration": 69000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "search-data-in-application",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Search data in application",
+    "uri": "cypress\\e2e\\search.feature"
+  }
+]
