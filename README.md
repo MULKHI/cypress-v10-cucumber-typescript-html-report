@@ -7,6 +7,17 @@ Cypress awesomness and its power can be enhanced if it is integerated with BDD (
 ### Why cypress with BDD Framework
 Cypress automation tests can be written directly in Typescript or Javascript and easy test case writing (written format can be understood by anyone). This project also provides buisness oriented reporting of tests in natural language that can be understood by different stakeholders (Devs + QA + Business Analyst + Product Owner).
 
+### 💻 Topics
+
+Integrated with:
+
+- [x] https://github.com/badeball/cypress-cucumber-preprocessor
+- [x] https://github.com/bahmutov/cypress-esbuild-preprocessor
+- [x] https://www.npmjs.com/package/multiple-cucumber-html-reporter
+- [x] https://github.com/cucumber/json-formatter
+
+(+ bundlers: https://github.com/badeball/cypress-cucumber-preprocessor/tree/master/examples)
+
 
 ## Installation
 ```
