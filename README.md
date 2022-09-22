@@ -37,7 +37,7 @@ npm install webpack
 ```
 npm install multiple-cucumber-html-reporter
 ```
-## Execute Tests
+## 👨‍💻Execute Tests
 Run the Cypress Tests in headmode
 ```
 npx cypress open
