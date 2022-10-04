@@ -3,7 +3,7 @@
 import { Given, When, Then } from '@badeball/cypress-cucumber-preprocessor'
 import SearchPage from './searchPage'
 
-Given('A user open homepage1', () => {
+Given('A user open home page', () => {
 	SearchPage.visit()
 })
 
@@ -16,7 +16,7 @@ Then('A user will get feedback from the result', () => {
 })
 
 /// User search results do not match
-Given('A user open homepage2', () => {
+Given('A user open home page', () => {
 	SearchPage.visit()
 })
 
