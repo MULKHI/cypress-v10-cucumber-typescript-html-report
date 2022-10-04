@@ -3,7 +3,7 @@ import { Given, When, Then } from '@badeball/cypress-cucumber-preprocessor'
 import LoginPage from './loginPage'
 
 /// Login with valid data
-Given('A user open loginpage1', () => {
+Given('A user open login page', () => {
 	LoginPage.visit()
 })
 
@@ -19,7 +19,7 @@ Then('A user should see account summary page', () => {
 
 
 /// Login with invalid data
-Given('A user open loginpage2', () => {
+Given('A user open login page', () => {
 	LoginPage.visit()
 })
 
