@@ -67,4 +67,4 @@ An HTML report is generated in the folder "output" directory that gives the foll
 
 ![Screenshot (312)](https://user-images.githubusercontent.com/80143004/191599458-00c42573-7f2b-4066-be52-1747e11ae0b0.png)
 
-Report is generated using JSON + HTML and it is very useful if we want to integerate our project test results output with any system (e.g: configure the test with CI tool and generate the report using pipeline and email it to the user).
+Report is generated using JSON + HTML and it is very useful if we want to integerate our project test results output with any system.
