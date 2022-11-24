@@ -70,4 +70,6 @@ An HTML report is generated in the folder "output" directory that gives the foll
 Report is generated using JSON + HTML and it is very useful if we want to integerate our project test results output with any system.
 
 Contact me if you have any problem with this project
-- [x] https://linktr.ee/putraqa
+<p>
+    <a href="mailto: mulkhiputral@gmail.com" target="blank"><img src="https://img.shields.io/badge/-gmail-181717?style=for-the-badge&logo=gmail" /></a>
+</p>
