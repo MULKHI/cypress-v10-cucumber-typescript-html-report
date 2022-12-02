@@ -1,4 +1,4 @@
-# cypress-v10-cucumber-typescript-html-reporter
+# cypress-v10-cucumber-typescript-html-report
 Cypress Automation framework for Typescript based apps using BDD-Gherkin style (Cucumber) 
 
 ## Purpose of the project
