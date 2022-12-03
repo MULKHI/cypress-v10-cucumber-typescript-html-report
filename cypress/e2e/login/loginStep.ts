@@ -19,9 +19,6 @@ Then('A user should see account summary page', () => {
 
 
 /// Login with invalid data
-Given('A user open login page', () => {
-	LoginPage.visit()
-})
 
 When('A user submit login with invalid data', () => {
 	LoginPage.fillUsername('invalid username')
